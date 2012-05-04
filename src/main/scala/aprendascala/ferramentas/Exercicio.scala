@@ -11,13 +11,15 @@ object Exercicios {
 
 trait Exercicios extends FunSuite with ShouldMatchers {
 
+  import Exercicios._
+
   val exercicio = test _
 
   val MUDE_AQUI = Marker()
 
   implicit def mudeAqui(x : Any) = {
     new {
-      def MUDE_AQUI(y : Any) = Exercicios.mensagem
+      def MUDE_AQUI(y : Any) = mensagem
     }
   }
 
@@ -29,9 +31,14 @@ trait Exercicios extends FunSuite with ShouldMatchers {
     }
   }
 
+  implicit def toInt(x : Marker) = Integer.MAX_VALUE
+
 }
 
 case class Marker() {
-  override def toString = Exercicios.mensagem
+  import Exercicios._
+
+  def substring(x : Any, y : Any) = mensagem
+  override def toString = mensagem
 }
 
