@@ -11,15 +11,15 @@ class Ex02Strings extends Exercicios {
   """
 
   exercicio("Concatenar Duas Strings") {
-    "uma string " MUDE_AQUI "outra string" deveSer "uma string outra string"
-    "dia " MUDE_AQUI "bonito" deveSer "dia bonito"
-    "dia " + MUDE_AQUI deveSer "dia feio"
+    "uma string " + "outra string" deveSer "uma string outra string"
+    "dia " + "bonito" deveSer "dia bonito"
+    "dia " + "feio" deveSer "dia feio"
   }
 
   exercicio("Cortando strings") {
-    "string".MUDE_AQUI(2) deveSer "ring"
-    "banana".MUDE_AQUI(0, 3) deveSer "ban"
-    "banana".substring(MUDE_AQUI, 4) deveSer "na"
+    "string".substring(2) deveSer "ring"
+    "banana".substring(0, 3) deveSer "ban"
+    "banana".substring(2, 4) deveSer "na"
     "cachorro".substring(2, MUDE_AQUI) deveSer "cho"
     MUDE_AQUI.substring(2, 5) deveSer "gem"
     MUDE_AQUI.substring(MUDE_AQUI, MUDE_AQUI) deveSer "ima"
