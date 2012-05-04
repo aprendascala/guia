@@ -2,12 +2,12 @@ package aprendascala.ex01.operacoes
 
 import aprendascala.ferramentas.Exercicios
 
-class OperacoesBasicas extends Exercicios {
+class Ex01OperacoesBasicas extends Exercicios {
 
   """
-  Operações básicas com números e Strings
-  um blablabla explicando os exercícios abaixo
-  
+  As quatro operações básicas (+, -, *, /) são as mesmas
+  usadas na matemática.
+  O cálculo do resto da divisão é feito usando o caractere %
   """
 
   exercicio("Somar Dois Numeros") {
@@ -34,10 +34,4 @@ class OperacoesBasicas extends Exercicios {
     4 MUDE_AQUI 2 deveSer 0
     8 MUDE_AQUI 7 deveSer 1
   }
-
-  exercicio("Concatenar Duas Strings") {
-    "uma string " MUDE_AQUI "outra string" deveSer "uma string outra string"
-    "dia " MUDE_AQUI "bonito" deveSer "dia bonito"
-  }
-
 }
