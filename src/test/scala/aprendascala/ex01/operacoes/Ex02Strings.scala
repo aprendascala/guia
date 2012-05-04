@@ -20,9 +20,9 @@ class Ex02Strings extends Exercicios {
     "string".substring(2) deveSer "ring"
     "banana".substring(0, 3) deveSer "ban"
     "banana".substring(2, 4) deveSer "na"
-    "cachorro".substring(2, MUDE_AQUI) deveSer "cho"
-    MUDE_AQUI.substring(2, 5) deveSer "gem"
-    MUDE_AQUI.substring(MUDE_AQUI, MUDE_AQUI) deveSer "ima"
+    "cachorro".substring(2, 5) deveSer "cho"
+    "vagem".substring(2, 5) deveSer "gem"
+    "mima".substring(1, 4) deveSer "ima"
   }
 
 }
