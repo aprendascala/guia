@@ -1,4 +1,4 @@
-package aprendascala._01operacoes
+package aprendascala.ex01.operacoes
 
 import aprendascala.ferramentas.Exercicios
 
@@ -7,7 +7,6 @@ class OperacoesBasicas extends Exercicios {
   """
   Operações básicas com números e Strings
   um blablabla explicando os exercícios abaixo
-    
   
   """
 
